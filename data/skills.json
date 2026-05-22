@@ -3,8 +3,7 @@
     "category":"Programming",
     "skills":[
       "Python",
-      "JavaScript",
-      "Bash"
+      "Bash Scripting"
     ]
   },
 
@@ -20,14 +19,14 @@
   },
 
   {
-    "category":"Cybersecurity",
+    "category":"Cybersecurity - Tools",
     "skills":[
       "Wireshark",
       "Nmap",
       "Splunk",
       "Metasploit",
       "SIEM",
-      "Threat Detection"
+      "Cisco Packet Tracer"
     ]
   },
 
@@ -45,7 +44,7 @@
     "skills":[
       "HTML",
       "CSS",
-      "Flask",
+      "HTTP/HTTPS",
       "GitHub Pages"
     ]
   }

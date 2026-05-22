@@ -4,8 +4,7 @@
     "description":"A Flask-based vulnerability scanner with CVE lookup, authentication and report generation.",
     "tools":[
       "Python",
-      "Flask",
-      "CVE",
+      "Nmap",
       "Networking",
       "Security"
     ],
@@ -18,6 +17,7 @@
     "description":"A Python password manager with encryption, authentication and secure password generation.",
     "tools":[
       "Python",
+      "CLI",
       "Cryptography",
       "Authentication",
       "Security"
