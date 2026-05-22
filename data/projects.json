@@ -1,0 +1,28 @@
+[
+  {
+    "title":"Network Vulnerability Scanner",
+    "description":"A Flask-based vulnerability scanner with CVE lookup, authentication and report generation.",
+    "tools":[
+      "Python",
+      "Flask",
+      "CVE",
+      "Networking",
+      "Security"
+    ],
+    "github":"https://github.com/Anish-Raj-B",
+    "image":"assets/projects/scanner.png"
+  },
+
+  {
+    "title":"Secure Password Manager",
+    "description":"A Python password manager with encryption, authentication and secure password generation.",
+    "tools":[
+      "Python",
+      "Cryptography",
+      "Authentication",
+      "Security"
+    ],
+    "github":"https://github.com/Anish-Raj-B",
+    "image":"assets/projects/password-manager.png"
+  }
+]

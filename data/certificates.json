@@ -1,0 +1,116 @@
+[
+  {
+    "title":"Fortinet Certified Fundamentals",
+    "platform":"Fortinet",
+    "date":"May 2026",
+    "link":"assets/certificates/fortinet-fundamentals.pdf",
+    "icon":"fas fa-shield-alt",
+    "featured":true
+  },
+
+  {
+    "title":"Intro to Splunk",
+    "platform":"Splunk",
+    "date":"May 2026",
+    "link":"assets/certificates/splunk.pdf",
+    "icon":"fas fa-chart-line",
+    "featured":true
+  },
+
+  {
+    "title":"Red Hat RH124",
+    "platform":"Red Hat",
+    "date":"May 2026",
+    "link":"assets/certificates/redhat-rh124.pdf",
+    "icon":"fab fa-redhat",
+    "featured":true
+  },
+
+  {
+    "title":"Introduction to Cybersecurity",
+    "platform":"Cisco",
+    "date":"May 2026",
+    "link":"assets/certificates/cisco-intro-cybersecurity.pdf",
+    "icon":"fas fa-user-secret"
+  },
+
+  {
+    "title":"Linux Unhatched",
+    "platform":"Cisco NDG",
+    "date":"Feb 2026",
+    "link":"assets/certificates/linux-unhatched.pdf",
+    "icon":"fab fa-linux"
+  },
+
+  {
+    "title":"Networking Basics",
+    "platform":"Cisco",
+    "date":"Oct 2025",
+    "link":"assets/certificates/networking-basics.pdf",
+    "icon":"fas fa-network-wired"
+  },
+
+  {
+    "title":"Exploring Networking",
+    "platform":"Cisco",
+    "date":"Oct 2025",
+    "link":"assets/certificates/exploring-networking.pdf",
+    "icon":"fas fa-server"
+  },
+
+  {
+    "title":"Exploring IoT",
+    "platform":"Cisco",
+    "date":"Oct 2025",
+    "link":"assets/certificates/exploring-iot.pdf",
+    "icon":"fas fa-microchip"
+  },
+
+  {
+    "title":"Getting Started Packet Tracer",
+    "platform":"Cisco",
+    "date":"Oct 2025",
+    "link":"assets/certificates/getting-started-packettracer.pdf",
+    "icon":"fas fa-laptop-code"
+  },
+
+  {
+    "title":"Technical Introduction to Cybersecurity",
+    "platform":"Fortinet",
+    "date":"May 2026",
+    "link":"assets/certificates/fortinet-technical-intro.pdf",
+    "icon":"fas fa-lock"
+  },
+
+  {
+    "title":"Threat Landscape",
+    "platform":"Fortinet",
+    "date":"May 2026",
+    "link":"assets/certificates/threat-landscape.pdf",
+    "icon":"fas fa-bug"
+  },
+
+  {
+    "title":"Mastercard Cybersecurity Simulation",
+    "platform":"Forage",
+    "date":"Feb 2026",
+    "link":"assets/certificates/mastercard-forage.pdf",
+    "icon":"fas fa-user-shield"
+  },
+
+  {
+    "title":"TATA Cybersecurity Simulation",
+    "platform":"Forage",
+    "date":"Feb 2026",
+    "link":"assets/certificates/tata-forage.pdf",
+    "icon":"fas fa-user-secret"
+  },
+
+  {
+    "title":"Skill India Cybersecurity",
+    "platform":"Skill India",
+    "date":"Feb 2026",
+    "link":"assets/certificates/skill-india.pdf",
+    "icon":"fas fa-graduation-cap"
+  }
+]
