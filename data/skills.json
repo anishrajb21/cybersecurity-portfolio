@@ -1,0 +1,52 @@
+[
+  {
+    "category":"Programming",
+    "skills":[
+      "Python",
+      "JavaScript",
+      "Bash"
+    ]
+  },
+
+  {
+    "category":"Networking",
+    "skills":[
+      "TCP/IP",
+      "DHCP",
+      "DNS",
+      "Subnetting",
+      "Routing"
+    ]
+  },
+
+  {
+    "category":"Cybersecurity",
+    "skills":[
+      "Wireshark",
+      "Nmap",
+      "Splunk",
+      "Metasploit",
+      "SIEM",
+      "Threat Detection"
+    ]
+  },
+
+  {
+    "category":"Operating Systems",
+    "skills":[
+      "Linux",
+      "Windows",
+      "Kali Linux"
+    ]
+  },
+
+  {
+    "category":"Web Technologies",
+    "skills":[
+      "HTML",
+      "CSS",
+      "Flask",
+      "GitHub Pages"
+    ]
+  }
+]
