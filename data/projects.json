@@ -9,7 +9,7 @@
       "Networking",
       "Security"
     ],
-    "github":"https://github.com/Anish-Raj-B",
+    "github":"https://github.com/anishrajb21/network-scanner-.git",
     "image":"assets/projects/scanner.png"
   },
 
@@ -22,7 +22,33 @@
       "Authentication",
       "Security"
     ],
-    "github":"https://github.com/Anish-Raj-B",
+    "github":"https://github.com/anishrajb21/password_manager.git",
     "image":"assets/projects/password-manager.png"
+  },
+  {
+  "title":"Anti-Phishing Browser Extension",
+  "description":"A Chrome extension designed to detect and warn users about suspicious phishing websites in real time using URL analysis and browser-based security checks.",
+  "tools":[
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Chrome Extension",
+    "Cybersecurity"
+  ],
+  "github":"https://github.com/anishrajb21/Anti-Phishing-Extension",
+  "image":"assets/projects/anti-phishing-extension.png"
+  },
+  {
+  "title":"Cybersecurity Portfolio Website",
+  "description":"A responsive cybersecurity portfolio website built using HTML, CSS and JavaScript to showcase cybersecurity projects, certifications, technical skills and GitHub repositories.",
+  "tools":[
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "GitHub Pages",
+    "Responsive Design"
+  ],
+  "github":"https://github.com/anishrajb21/cybersecurity-portfolio",
+  "image":"assets/projects/portfolio.png"
   }
 ]
