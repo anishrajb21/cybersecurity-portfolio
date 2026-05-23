@@ -1,3 +1,6 @@
+let certificateIndex = 3;
+let badgeIndex = 3;
+
 async function loadSkills(){
 
     const response =
@@ -52,7 +55,11 @@ async function loadCertificates(){
             "certificates-container"
         );
 
-    certificates.forEach(cert=>{
+    container.innerHTML = "";
+
+    certificates
+        .slice(0, certificateIndex)
+        .forEach(cert=>{
 
         container.innerHTML += `
 
@@ -85,6 +92,48 @@ async function loadCertificates(){
         </div>
         `;
     });
+
+    if(certificateIndex < certificates.length){
+
+        container.innerHTML += `
+
+        <div class="certificate-card"
+            style="
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            ">
+
+            <button
+                onclick="showMoreCertificates()"
+                class="btn">
+
+                + More
+
+            </button>
+
+        </div>
+        `;
+    }
+}
+
+async function showMoreCertificates(){
+
+    const response =
+        await fetch("data/certificates.json");
+
+    const certificates =
+        await response.json();
+
+    certificateIndex += 3;
+
+    if(certificateIndex > certificates.length){
+
+        certificateIndex =
+            certificates.length;
+    }
+
+    loadCertificates();
 }
 
 async function loadProjects(){
@@ -140,6 +189,96 @@ async function loadProjects(){
     });
 }
 
+async function loadBadges(){
+
+    const response =
+        await fetch("data/badges.json");
+
+    const badges =
+        await response.json();
+
+    const container =
+        document.getElementById(
+            "badges-container"
+        );
+
+    container.innerHTML = "";
+
+    badges
+        .slice(0, badgeIndex)
+        .forEach(badge=>{
+
+        container.innerHTML += `
+
+        <div class="certificate-card">
+
+            <img src="${badge.image}"
+                style="
+                    width:100px;
+                    margin-bottom:20px;
+                ">
+
+            <h3>${badge.title}</h3>
+
+            <p class="platform">
+                ${badge.issuer}
+            </p>
+
+            <a href="${badge.link}"
+                target="_blank"
+                class="btn">
+
+                View Badge
+
+            </a>
+
+        </div>
+        `;
+    });
+
+    if(badgeIndex < badges.length){
+
+        container.innerHTML += `
+
+        <div class="certificate-card"
+            style="
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            ">
+
+            <button
+                onclick="showMoreBadges()"
+                class="btn">
+
+                + More
+
+            </button>
+
+        </div>
+        `;
+    }
+}
+
+async function showMoreBadges(){
+
+    const response =
+        await fetch("data/badges.json");
+
+    const badges =
+        await response.json();
+
+    badgeIndex += 3;
+
+    if(badgeIndex > badges.length){
+
+        badgeIndex =
+            badges.length;
+    }
+
+    loadBadges();
+}
+
 window.onload = ()=>{
 
     loadSkills();
@@ -147,4 +286,6 @@ window.onload = ()=>{
     loadCertificates();
 
     loadProjects();
+
+    loadBadges();
 };
